@@ -1,0 +1,12 @@
+a=set()
+a.add(2)
+a.add(3)
+a.add((4,5))
+print(a)
+a.remove(2)
+print(a)
+a.union({3,4,5,6})
+b=set()
+b.add(20)
+b.add(20.0)
+print(b)    #---> here 20 and 20.0 will be equal for python so set lenght will be considerd as 1
